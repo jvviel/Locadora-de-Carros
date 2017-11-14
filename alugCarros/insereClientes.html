@@ -1,0 +1,41 @@
+<html>
+    <head>
+      <meta charset="UTF-8"> 
+        <title>Inserir Novo Cliente</title>
+    </head>
+    <body class="container">   
+        
+        <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+        <h1>Cadastrar Cliente</h1>
+        <form id="frmCadCli" name="frmCadCli" method="post" action="insCli.php">
+       
+          <div class="form-group">
+            <label for="lblNome">Nome: </label>
+            <input type="text" class="form-control" id="txtNome" name="txtNome" placeholder="Informe o Nome..." required="">
+          </div>
+        
+          <div class="form-group">
+            <label for="lblTel">Telefone: </label>
+            <input maxlength="11" type="tel" class="form-control" id="txtTel" name="txtTel" placeholder="Use apenas números..." required="">
+          </div>
+
+          <div class="form-group">
+            <label for="lblAno">Cidade: </label>
+            <input type="text" class="form-control" id="txtCid" name="txtCid" placeholder="Informe a Cidade..." required="">
+          </div>
+
+          <div class="form-group">
+            <label for="lblDisp">Estado: </label>
+            <input maxlength="2" type="text" class="form-control" id="txtEst" name="txtEst" placeholder="Informe o UF" required="">
+          </div>
+          
+          <input  id="bt_cadastrar" type="submit" value="Cadastrar" class="btn btn-success"/>
+          <input  id="bt_limpar" type="reset" value="Limpar" class="btn btn-warning"/>
+          <button id="bt_voltar" type="button" class="btn btn-danger"
+          onclick="javascript:location.href='Menu.html'">Voltar</button>
+
+    
+        </form>
+    
+    </body>
+</html>

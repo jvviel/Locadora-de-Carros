@@ -1,0 +1,13 @@
+.textoBold{
+    font-family: 'Times New Roman', Times, serif ;   
+    font-size: 24px;
+    color: blue; 
+    font-weight: bold;  
+}
+
+.textoNormal{
+    font-family: 'Times New Roman', Times, serif;   
+    font-size: 24px;
+    color: black; 
+    font-weight: normal; 
+}
